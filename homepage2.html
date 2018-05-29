@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<style>
+  body{
+  margin: 0;
+  padding:0
+}
+
+.fullScreenContent{
+  width: 100%;
+  margin:0;
+  height:900px;
+  background-color: #FCF2FF;
+  text-align: center;
+}
+
+.map {
+  top: 50%;
+  width: 100%;
+  margin:0;
+  height:900px;
+  background-color: #FCF2FF;
+  text-align: center;
+  position: relative;
+}
+
+div.map img.pin{
+  position: absolute;
+  z-index: 2;
+}
+
+.rotate90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+video {
+  margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.video-container {
+    height: 600px;
+}
+
+.video-parallax {
+    -webkit-transition-position: fixed;
+    position: fixed;
+}
+
+.margin li{
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+#header{
+  -webkit-transition-position: fixed;
+  position: absolute;
+  z-index: 1000;
+  top: 45%;
+  left: 29%;
+  text-align: center;
+  margin:auto;
+  color: white;
+}
+
+
+</style>
+<h1 id="header" style="font-size:130px; text-align: center;">⏤ 好吃  ⏤</h1>
+<div class="video-container">
+  <video autoplay poster="" class="video-parallax" loop muted>
+<source src="file:///Users/mac/Desktop/compscifinal/hkcameo.mp4" type="video/webm">
+    <source src="file:///Users/mac/Desktop/compscifinal/hkcameo.mp4" type="video/mp4">
+
+
+  </video>
+</div>
+
+<div class="fullScreenContent">
+<h1 style="text-align: center;">Where To Go and What To Do</h1>
+<p style="text-align: center;">A travel guide by Celine Cheung</p> 
+<img src="file:///Users/mac/Desktop/compscifinal/food/IMG_2612.jpg" height="252" width="336" class="rotate90" />
+<ul class="margin">
+    <li><a href="file:///Users/mac/Desktop/compscifinal/homepage.html">Home</a></li>
+  <li><a href="file:///Users/mac/Desktop/compscifinal/hkfood.html">Hong Kong</a></li>
+  <li><a href="file:///Users/mac/Desktop/compscifinal/hokkaidofood.html">Japan</a></li>
+  <li><a href="file:///Users/mac/Desktop/compscifinal/saebyukjibseoul.html">Korea</a></li>
+</ul>
+</div>
+
+<div class="video-container">
+  <video autoplay poster="" class="video-parallax" loop muted>
+<source src="file:///Users/mac/Desktop/compscifinal/hkcameo.mp4" type="video/webm">
+    <source src="file:///Users/mac/Desktop/compscifinal/hkcameo.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div class="map">
+  <img src="file:///Users/mac/Desktop/compscifinal/food/eastasiamap.jpg" height=100% width=59% />
+  <a href="file:///Users/mac/Desktop/compscifinal/pages/hkfood.html">
+  <img class="pin" src="file:///Users/mac/Desktop/compscifinal/food/pin.svg" height=8% width=5.87% style="top: 353px; left: 719px;"/></a> <!--hk-->
+  <a href="file:///Users/mac/Desktop/compscifinal/pages/tsuta.html">
+  <img class="pin" src="file:///Users/mac/Desktop/compscifinal/food/pin.svg" height=8% width=5.87% style="top: 195px; left: 959px;"/></a> <!--tokyo-->
+  <a href="file:///Users/mac/Desktop/compscifinal/pages/hokkaidofood.html">
+  <img class="pin" src="file:///Users/mac/Desktop/compscifinal/food/pin.svg" height=8% width=5.87% style="top: 120px; left: 948px;"/></a> <!--niseko-->
+  <a href="file:///Users/mac/Desktop/compscifinal/pages/saebyukjibseoul.html">
+  <img class="pin" src="file:///Users/mac/Desktop/compscifinal/food/pin.svg" height=8% width=5.87% style="top: 193px; left: 836px;"/></a> <!--seoul-->
+
+</div>
+
+
+
+</html>
